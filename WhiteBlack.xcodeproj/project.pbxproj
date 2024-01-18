@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47DDC0302B5936CA006BA770 /* WhiteBlockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DDC02F2B5936CA006BA770 /* WhiteBlockApp.swift */; };
+		47DDC0302B5936CA006BA770 /* WhiteBlackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DDC02F2B5936CA006BA770 /* WhiteBlackApp.swift */; };
 		47DDC0322B5936CA006BA770 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DDC0312B5936CA006BA770 /* ContentView.swift */; };
 		47DDC0342B5936CC006BA770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47DDC0332B5936CC006BA770 /* Assets.xcassets */; };
 		47DDC0372B5936CC006BA770 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47DDC0362B5936CC006BA770 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		47DDC02C2B5936CA006BA770 /* WhiteBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		47DDC02F2B5936CA006BA770 /* WhiteBlockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBlockApp.swift; sourceTree = "<group>"; };
+		47DDC02C2B5936CA006BA770 /* WhiteBlack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteBlack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DDC02F2B5936CA006BA770 /* WhiteBlackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBlackApp.swift; sourceTree = "<group>"; };
 		47DDC0312B5936CA006BA770 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		47DDC0332B5936CC006BA770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47DDC0362B5936CC006BA770 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		47DDC0232B5936CA006BA770 = {
 			isa = PBXGroup;
 			children = (
-				47DDC02E2B5936CA006BA770 /* WhiteBlock */,
+				47DDC02E2B5936CA006BA770 /* WhiteBlack */,
 				47DDC02D2B5936CA006BA770 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +43,20 @@
 		47DDC02D2B5936CA006BA770 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47DDC02C2B5936CA006BA770 /* WhiteBlock.app */,
+				47DDC02C2B5936CA006BA770 /* WhiteBlack.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		47DDC02E2B5936CA006BA770 /* WhiteBlock */ = {
+		47DDC02E2B5936CA006BA770 /* WhiteBlack */ = {
 			isa = PBXGroup;
 			children = (
-				47DDC02F2B5936CA006BA770 /* WhiteBlockApp.swift */,
+				47DDC02F2B5936CA006BA770 /* WhiteBlackApp.swift */,
 				47DDC0312B5936CA006BA770 /* ContentView.swift */,
 				47DDC0332B5936CC006BA770 /* Assets.xcassets */,
 				47DDC0352B5936CC006BA770 /* Preview Content */,
 			);
-			path = WhiteBlock;
+			path = WhiteBlack;
 			sourceTree = "<group>";
 		};
 		47DDC0352B5936CC006BA770 /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47DDC02B2B5936CA006BA770 /* WhiteBlock */ = {
+		47DDC02B2B5936CA006BA770 /* WhiteBlack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47DDC03A2B5936CC006BA770 /* Build configuration list for PBXNativeTarget "WhiteBlock" */;
+			buildConfigurationList = 47DDC03A2B5936CC006BA770 /* Build configuration list for PBXNativeTarget "WhiteBlack" */;
 			buildPhases = (
 				47DDC0282B5936CA006BA770 /* Sources */,
 				47DDC0292B5936CA006BA770 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = WhiteBlock;
+			name = WhiteBlack;
 			productName = WhiteBlock;
-			productReference = 47DDC02C2B5936CA006BA770 /* WhiteBlock.app */;
+			productReference = 47DDC02C2B5936CA006BA770 /* WhiteBlack.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 47DDC0272B5936CA006BA770 /* Build configuration list for PBXProject "WhiteBlock" */;
+			buildConfigurationList = 47DDC0272B5936CA006BA770 /* Build configuration list for PBXProject "WhiteBlack" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47DDC02B2B5936CA006BA770 /* WhiteBlock */,
+				47DDC02B2B5936CA006BA770 /* WhiteBlack */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47DDC0322B5936CA006BA770 /* ContentView.swift in Sources */,
-				47DDC0302B5936CA006BA770 /* WhiteBlockApp.swift in Sources */,
+				47DDC0302B5936CA006BA770 /* WhiteBlackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +271,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WhiteBlock/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WhiteBlack/Preview Content\"";
 				DEVELOPMENT_TEAM = 5MWQNTQR5M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,7 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WhiteBlock/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WhiteBlack/Preview Content\"";
 				DEVELOPMENT_TEAM = 5MWQNTQR5M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -325,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47DDC0272B5936CA006BA770 /* Build configuration list for PBXProject "WhiteBlock" */ = {
+		47DDC0272B5936CA006BA770 /* Build configuration list for PBXProject "WhiteBlack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47DDC0382B5936CC006BA770 /* Debug */,
@@ -334,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47DDC03A2B5936CC006BA770 /* Build configuration list for PBXNativeTarget "WhiteBlock" */ = {
+		47DDC03A2B5936CC006BA770 /* Build configuration list for PBXNativeTarget "WhiteBlack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47DDC03B2B5936CC006BA770 /* Debug */,

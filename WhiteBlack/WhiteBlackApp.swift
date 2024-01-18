@@ -1,6 +1,6 @@
 //
-//  WhiteBlockApp.swift
-//  WhiteBlock
+//  WhiteBlackApp.swift
+//  WhiteBlack
 //
 //  Created by FS on 2024/1/18.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct WhiteBlockApp: App {
+struct WhiteBlackApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
